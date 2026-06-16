@@ -8,7 +8,24 @@
 
 </head>
 <body>
-    
+    <main class="card">
+        <h1>Click Counter</h1>
+        <!-- <p class="subtitle">A Simple Counter</p> -->
+
+        <div class="counter" id="counterValue">0</div>
+
+        <label for="step-row" class="step-row">
+        Step: <input type="number" id="stepInput" value="1" min="1" />
+    </label>
+
+    <div class="buttons">
+            <button id="decreaseBtn" class="btn btn-decrease">- Decrease</button>
+            <button  id="resetBtn" class="btn btn-reset">Reset</button>
+            <button id="increaseBtn" class="btn btn-increase">+ Increase</button>
+        </div>
+
+        <p id="hint" class="hint"></p>
+    </main>
     <script src="./main.js"></script>
 </body>
 </html>
